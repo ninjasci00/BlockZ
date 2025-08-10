@@ -1,5 +1,8 @@
 package net.ricmc.blockz;
 
+import net.minecraft.world.item.CreativeModeTabs;
+import net.ricmc.blockz.block.ModBlocks;
+import net.ricmc.blockz.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -34,6 +37,9 @@ public class BlockzMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -47,7 +53,21 @@ public class BlockzMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.BISMUTH);
+            event.accept(ModItems.RAW_BISMUTH);
+        }
 
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TERRA_BLOCK);
+            event.accept(ModBlocks.SMOOTHDIRT_BLOCK);
+            event.accept(ModBlocks.SMOOTHDIRT3_BLOCK);
+            event.accept(ModBlocks.SMOOTHDIRT4_BLOCK);
+            event.accept(ModBlocks.SMOOTHDIRT5_BLOCK);
+            event.accept(ModBlocks.SMOOTHDIRT6_BLOCK);
+            event.accept(ModBlocks.SMOOTHDIRT7_BLOCK);
+
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
