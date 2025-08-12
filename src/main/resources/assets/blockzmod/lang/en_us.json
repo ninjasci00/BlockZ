@@ -2,6 +2,6 @@
   "item.blockzmod.bismuth": "Bismuth",
   "item.blockzmod.raw_bismuth": "Raw Bismuth",
 
-  "block.blockzmod.terra_block": "Terra",
-  "block.blockzmod.terra_block": "Smooth Dirt"
+  "block.blockzmod.smoothdirtlight_block": "Smooth Dirt Light",
+  "block.blockzmod.smoothdirtdark_block": "Smooth Dirt Dark"
 }

@@ -17,51 +17,15 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(BlockzMod.MOD_ID);
 
-    public static final DeferredBlock<Block> TERRA_BLOCK = registerBlock("terra_block",
+    public static final DeferredBlock<Block> SMOOTHDIRTLIGHT_BLOCK = registerBlock("smoothdirtlight_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.ROOTED_DIRT)
                     .strength(1f)
-            )
-    );
-    public static final DeferredBlock<Block> SMOOTHDIRT_BLOCK = registerBlock("smoothdirt_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.ROOTED_DIRT)
-                    .strength(0.1f)
                     .speedFactor(1.2F)
             )
     );
-    public static final DeferredBlock<Block> SMOOTHDIRT3_BLOCK = registerBlock("smoothdirt3_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.ROOTED_DIRT)
-                    .strength(0.1f)
-                    .speedFactor(1.2F)
-            )
-    );
-    public static final DeferredBlock<Block> SMOOTHDIRT4_BLOCK = registerBlock("smoothdirt4_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.ROOTED_DIRT)
-                    .strength(0.1f)
-                    .speedFactor(1.2F)
-            )
-    );public static final DeferredBlock<Block> SMOOTHDIRT5_BLOCK = registerBlock("smoothdirt5_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.ROOTED_DIRT)
-                    .strength(0.1f)
-                    .speedFactor(1.2F)
-            )
-    );public static final DeferredBlock<Block> SMOOTHDIRT6_BLOCK = registerBlock("smoothdirt6_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.ROOTED_DIRT)
-                    .strength(0.1f)
-                    .speedFactor(1.2F)
-            )
-    );public static final DeferredBlock<Block> SMOOTHDIRT7_BLOCK = registerBlock("smoothdirt7_block",
+    public static final DeferredBlock<Block> SMOOTHDIRTDARK_BLOCK = registerBlock("smoothdirtdark_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.ROOTED_DIRT)

@@ -59,13 +59,9 @@ public class BlockzMod {
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.TERRA_BLOCK);
-            event.accept(ModBlocks.SMOOTHDIRT_BLOCK);
-            event.accept(ModBlocks.SMOOTHDIRT3_BLOCK);
-            event.accept(ModBlocks.SMOOTHDIRT4_BLOCK);
-            event.accept(ModBlocks.SMOOTHDIRT5_BLOCK);
-            event.accept(ModBlocks.SMOOTHDIRT6_BLOCK);
-            event.accept(ModBlocks.SMOOTHDIRT7_BLOCK);
+            event.accept(ModBlocks.SMOOTHDIRTLIGHT_BLOCK);
+            event.accept(ModBlocks.SMOOTHDIRTDARK_BLOCK);
+
 
         }
     }
