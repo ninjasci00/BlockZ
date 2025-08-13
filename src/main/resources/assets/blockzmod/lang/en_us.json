@@ -1,7 +1,11 @@
 {
   "item.blockzmod.bismuth": "Bismuth",
   "item.blockzmod.raw_bismuth": "Raw Bismuth",
+  "item.blockzmod.omni_spade": "Omni Spade",
 
-  "block.blockzmod.smoothdirtlight_block": "Smooth Dirt Light",
-  "block.blockzmod.smoothdirtdark_block": "Smooth Dirt Dark"
+  "block.blockzmod.smoothdirtlight_block": "Smooth Dirt (Light)",
+  "block.blockzmod.smoothdirtdark_block": "Smooth Dirt (Dark)",
+
+  "creativetab.blockzmod.blockz_blocks": "BlockZ",
+  "creativetab.blockzmod.blockz_items": "BlockZ Items"
 }

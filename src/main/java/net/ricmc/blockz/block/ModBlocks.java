@@ -19,15 +19,15 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> SMOOTHDIRTLIGHT_BLOCK = registerBlock("smoothdirtlight_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
+
                     .sound(SoundType.ROOTED_DIRT)
-                    .strength(1f)
+                    .strength(0.1f)
                     .speedFactor(1.2F)
             )
     );
     public static final DeferredBlock<Block> SMOOTHDIRTDARK_BLOCK = registerBlock("smoothdirtdark_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
+
                     .sound(SoundType.ROOTED_DIRT)
                     .strength(0.1f)
                     .speedFactor(1.2F)
