@@ -22,7 +22,6 @@ public class OmniSpadeItem extends Item {
                     Blocks.DIRT_PATH, ModBlocks.SMOOTHDIRTLIGHT_BLOCK.get(),
                     Blocks.COARSE_DIRT, ModBlocks.SMOOTHDIRTLIGHT_BLOCK.get(),
                     ModBlocks.SMOOTHDIRTLIGHT_BLOCK.get(), Blocks.DIRT
-
             );
 
     public OmniSpadeItem(Properties properties) {
@@ -44,7 +43,6 @@ public class OmniSpadeItem extends Item {
                 level.playSound(null, context.getClickedPos(), SoundEvents.HOE_TILL, SoundSource.BLOCKS);
             }
         }
-
         return InteractionResult.SUCCESS;
     }
 }

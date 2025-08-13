@@ -35,6 +35,8 @@ public class ModeCreativeModTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.SMOOTHDIRTLIGHT_BLOCK);
                         output.accept(ModBlocks.SMOOTHDIRTDARK_BLOCK);
+                        output.accept(ModBlocks.EXCHANGE_BLOCK);
+
     }).build());
 
 

@@ -5,6 +5,7 @@
 
   "block.blockzmod.smoothdirtlight_block": "Smooth Dirt (Light)",
   "block.blockzmod.smoothdirtdark_block": "Smooth Dirt (Dark)",
+  "block.blockzmod.exchange_block": "Exchange Block",
 
   "creativetab.blockzmod.blockz_blocks": "BlockZ",
   "creativetab.blockzmod.blockz_items": "BlockZ Items"

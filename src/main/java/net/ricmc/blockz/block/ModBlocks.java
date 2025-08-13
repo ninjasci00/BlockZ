@@ -9,6 +9,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.ricmc.blockz.BlockzMod;
+import net.ricmc.blockz.block.custom.ExchangeBlock;
 import net.ricmc.blockz.item.ModItems;
 
 import java.util.function.Supplier;
@@ -33,6 +34,15 @@ public class ModBlocks {
                     .speedFactor(1.2F)
             )
     );
+
+    public static final DeferredBlock<Block> EXCHANGE_BLOCK = registerBlock("exchange_block",
+            () -> new ExchangeBlock(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .requiresCorrectToolForDrops()
+            )
+    );
+
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
