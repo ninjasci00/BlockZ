@@ -1,0 +1,7 @@
+// 1.21	2025-08-14T08:21:03.0656521	Recipes
+e1be78c83cf678a9c990f0a9afb3c3e1977f1f54 data/blockzmod/advancement/recipes/misc/exchange_smoothdirtdark_block.json
+6009af6aca78a5aeff376cc38d39133cad6afb69 data/blockzmod/advancement/recipes/misc/exchange_smoothdirtlight_block.json
+ff1338f25557405fd6ae692ee10d5f7096e97bc8 data/blockzmod/advancement/recipes/misc/smoothdirtlight_block.json
+b4aa2b628603c9e2ef8f63b69c42735e307a73fc data/blockzmod/recipe/exchange_smoothdirtdark_block.json
+8d093c51fb271bfdf37d9ac693586cef1599e2b5 data/blockzmod/recipe/exchange_smoothdirtlight_block.json
+910859f7d457646f2436db03d045e3a17f34f984 data/blockzmod/recipe/smoothdirtlight_block.json

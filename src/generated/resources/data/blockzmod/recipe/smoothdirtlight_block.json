@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:water_bucket"
+    },
+    "X": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XOX",
+    "XXX"
+  ],
+  "result": {
+    "count": 64,
+    "id": "blockzmod:smoothdirtlight_block"
+  }
+}
