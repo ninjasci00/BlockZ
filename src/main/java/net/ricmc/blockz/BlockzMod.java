@@ -67,6 +67,8 @@ public class BlockzMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SMOOTHDIRTLIGHT_BLOCK);
             event.accept(ModBlocks.SMOOTHDIRTDARK_BLOCK);
+            event.accept(ModBlocks.BAZE_BLOCK);
+
 
 
         }
