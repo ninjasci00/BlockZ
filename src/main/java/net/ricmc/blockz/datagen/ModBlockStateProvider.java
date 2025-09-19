@@ -17,6 +17,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.EXCHANGE_BLOCK);
         blockWithItem(ModBlocks.SMOOTHDIRTDARK_BLOCK);
         blockWithItem(ModBlocks.SMOOTHDIRTLIGHT_BLOCK);
+        blockWithItem(ModBlocks.SMOOTHCOBBLESTONEDARK_BLOCK);
+        blockWithItem(ModBlocks.SMOOTHCOBBLESTONELIGHT_BLOCK);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

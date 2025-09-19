@@ -1,4 +1,6 @@
-// 1.21	2025-08-14T03:47:38.5174408	Loot Tables
+// 1.21	2025-09-19T10:15:19.2183983	Loot Tables
 dd01285f293571975988c111f3e9940e06f95dcb data/blockzmod/loot_table/blocks/exchange_block.json
+3939b3b1eb27f75a2192f28c742b6d8916cc8c2b data/blockzmod/loot_table/blocks/smoothcobblestonedark_block.json
+a20ae049629c62f809becb62fc5fc15378a515ee data/blockzmod/loot_table/blocks/smoothcobblestonelight_block.json
 4bbf92e89e004ab208626ee8fc80ed17d2738c0c data/blockzmod/loot_table/blocks/smoothdirtdark_block.json
 65a73573dba25a9d3f4fa0522c183fbce60b908c data/blockzmod/loot_table/blocks/smoothdirtlight_block.json

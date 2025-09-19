@@ -16,6 +16,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BISMUTH.get());
         basicItem(ModItems.RAW_BISMUTH.get());
         basicItem(ModItems.OMNI_SPADE.get());
+        basicItem(ModItems.COBBLE_CRAFTER.get());
 
     }
 }

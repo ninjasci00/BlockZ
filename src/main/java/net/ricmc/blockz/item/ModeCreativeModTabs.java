@@ -23,6 +23,7 @@ public class ModeCreativeModTabs {
                         output.accept(ModItems.BISMUTH);
                         output.accept(ModItems.RAW_BISMUTH);
                         output.accept(ModItems.OMNI_SPADE);
+                        output.accept(ModItems.COBBLE_CRAFTER);
 
 
 

@@ -43,7 +43,6 @@ public class CobbleCrafterItem extends Item {
             if (available < CUBE_BLOCK_COUNT) {
                 int missing = CUBE_BLOCK_COUNT - available;
                 player.sendSystemMessage(Component.literal("Not enough cobblestone! You need " + missing + " more."));
-                player.playSound(SoundEvents.ANVIL_BREAK, 1.0F, 1.0F);
                 return InteractionResult.FAIL;
             }
 

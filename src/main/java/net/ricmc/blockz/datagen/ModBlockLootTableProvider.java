@@ -21,6 +21,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.SMOOTHDIRTDARK_BLOCK.get());
         dropSelf(ModBlocks.SMOOTHDIRTLIGHT_BLOCK.get());
         dropSelf(ModBlocks.EXCHANGE_BLOCK.get());
+        dropSelf(ModBlocks.SMOOTHCOBBLESTONEDARK_BLOCK.get());
+        dropSelf(ModBlocks.SMOOTHCOBBLESTONELIGHT_BLOCK.get());
 
     }
 
