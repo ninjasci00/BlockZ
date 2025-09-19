@@ -1,6 +1,11 @@
 package net.ricmc.blockz;
 
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.ricmc.blockz.block.ModBlocks;
 import net.ricmc.blockz.item.ModItems;
 import net.ricmc.blockz.item.ModeCreativeModTabs;
@@ -45,14 +50,8 @@ public class BlockzMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-
-        // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
-
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-
-
 
     }
 
@@ -60,25 +59,7 @@ public class BlockzMod {
 
     }
 
-    // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BISMUTH);
-            event.accept(ModItems.RAW_BISMUTH);
-            event.accept(ModItems.OMNI_SPADE);
-            event.accept(ModItems.COBBLE_CRAFTER);
 
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.SMOOTHDIRTLIGHT_BLOCK);
-            event.accept(ModBlocks.SMOOTHDIRTDARK_BLOCK);
-            event.accept(ModBlocks.SMOOTHCOBBLESTONELIGHT_BLOCK);
-            event.accept(ModBlocks.SMOOTHCOBBLESTONEDARK_BLOCK);
-
-
-        }
-    }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
@@ -86,11 +67,14 @@ public class BlockzMod {
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @EventBusSubscriber(modid = BlockzMod.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @EventBusSubscriber(modid = BlockzMod.MOD_ID, value = Dist.CLIENT)
     static class ClientModEvents {
         @SubscribeEvent
         static void onClientSetup(FMLClientSetupEvent event) {
 
         }
+
     }
 }
+
+

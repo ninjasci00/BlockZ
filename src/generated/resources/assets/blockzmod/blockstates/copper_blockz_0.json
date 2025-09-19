@@ -1,12 +1,6 @@
 {
   "variants": {
-    "variant=0": {
-      "model": "blockzmod:block/copper_blockz_0"
-    },
-    "variant=1": {
-      "model": "blockzmod:block/copper_blockz_0"
-    },
-    "variant=2": {
+    "": {
       "model": "blockzmod:block/copper_blockz_0"
     }
   }
