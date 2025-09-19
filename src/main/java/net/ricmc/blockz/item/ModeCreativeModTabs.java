@@ -37,11 +37,10 @@ public class ModeCreativeModTabs {
                         output.accept(ModBlocks.SMOOTHDIRTLIGHT_BLOCK);
                         output.accept(ModBlocks.SMOOTHDIRTDARK_BLOCK);
                         output.accept(ModBlocks.EXCHANGE_BLOCK);
-
+                        output.accept(ModBlocks.COPPER_BLOCKZ_0);
+                        output.accept(ModBlocks.COPPER_BLOCKZ_1);
+                        output.accept(ModBlocks.COPPER_BLOCKZ_2);
     }).build());
-
-
-
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);

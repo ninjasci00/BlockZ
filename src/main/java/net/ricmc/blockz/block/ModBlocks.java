@@ -9,9 +9,9 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.ricmc.blockz.BlockzMod;
+import net.ricmc.blockz.block.custom.CopperBlockz;
 import net.ricmc.blockz.block.custom.ExchangeBlock;
 import net.ricmc.blockz.item.ModItems;
-
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -59,6 +59,15 @@ public class ModBlocks {
                     .strength(0.1f)
                     .speedFactor(1.2f)
             )
+    );
+    public static final DeferredBlock<Block> COPPER_BLOCKZ_0 = registerBlock("copper_blockz_0",
+            CopperBlockz::new
+    );
+    public static final DeferredBlock<Block> COPPER_BLOCKZ_1 = registerBlock("copper_blockz_1",
+            CopperBlockz::new
+    );
+    public static final DeferredBlock<Block> COPPER_BLOCKZ_2 = registerBlock("copper_blockz_2",
+            CopperBlockz::new
     );
 
 

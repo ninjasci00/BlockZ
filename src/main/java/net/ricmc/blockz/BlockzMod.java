@@ -37,6 +37,8 @@ public class BlockzMod {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+        NeoForge.EVENT_BUS.register(BlockInteractEvents.class);
+
 
         ModeCreativeModTabs.register(modEventBus);
 
@@ -49,6 +51,9 @@ public class BlockzMod {
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+
+
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
