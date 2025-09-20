@@ -34,8 +34,9 @@ public class DataGenerators {
                 new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper)); // <-- ADD THIS
 
         // Client-side providers
-        generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
+
+        generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
     }
 
 }

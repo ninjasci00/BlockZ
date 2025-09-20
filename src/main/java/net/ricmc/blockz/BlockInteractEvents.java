@@ -27,7 +27,12 @@ public class BlockInteractEvents {
         VARIANTS_MAP.put("copper", Arrays.asList(
                 ModBlocks.COPPER_BLOCKZ_0.get().asItem(),
                 ModBlocks.COPPER_BLOCKZ_1.get().asItem(),
-                ModBlocks.COPPER_BLOCKZ_2.get().asItem()
+                ModBlocks.COPPER_BLOCKZ_2.get().asItem(),
+                ModBlocks.COPPER_BLOCKZ_3.get().asItem(),
+                ModBlocks.COPPER_BLOCKZ_4.get().asItem(),
+                ModBlocks.COPPER_BLOCKZ_5.get().asItem(),
+                ModBlocks.COPPER_BLOCKZ_6.get().asItem(),
+                ModBlocks.COPPER_BLOCKZ_7.get().asItem()
         ));
 
         // Add other block sets here similarly

@@ -40,6 +40,11 @@ public class ModeCreativeModTabs {
                         output.accept(ModBlocks.COPPER_BLOCKZ_0);
                         output.accept(ModBlocks.COPPER_BLOCKZ_1);
                         output.accept(ModBlocks.COPPER_BLOCKZ_2);
+                        output.accept(ModBlocks.COPPER_BLOCKZ_3);
+                        output.accept(ModBlocks.COPPER_BLOCKZ_4);
+                        output.accept(ModBlocks.COPPER_BLOCKZ_5);
+                        output.accept(ModBlocks.COPPER_BLOCKZ_6);
+                        output.accept(ModBlocks.COPPER_BLOCKZ_7);
     }).build());
 
     public static void register(IEventBus eventBus) {

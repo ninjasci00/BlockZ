@@ -1,7 +1,12 @@
-// 1.21.1	2025-09-20T03:50:08.6389377	Loot Tables
+// 1.21.1	2025-09-20T11:18:13.4833735	Loot Tables
 f6bb9744db2f6a9ac3a0d152fd82437e8483c7f6 data/blockzmod/loot_table/blocks/copper_blockz_0.json
 20d3137ecf578b67a9dfa0d7d8e97c7c8df7389f data/blockzmod/loot_table/blocks/copper_blockz_1.json
 7e9bed51998d5e40b957135fbc4af369c50b6afb data/blockzmod/loot_table/blocks/copper_blockz_2.json
+cec719f493dd4048070b883f92246f76caa2e928 data/blockzmod/loot_table/blocks/copper_blockz_3.json
+1e06866f09a6bed2529cb17192092d456d2a8765 data/blockzmod/loot_table/blocks/copper_blockz_4.json
+cea4b6e5e411668178b834733ec6abe0f77bc3f8 data/blockzmod/loot_table/blocks/copper_blockz_5.json
+4b0683c22bec48ecf7f18f3c61944b3ff53e773a data/blockzmod/loot_table/blocks/copper_blockz_6.json
+358d0364154852a75e305ecaf0fea2a4b0278c55 data/blockzmod/loot_table/blocks/copper_blockz_7.json
 dd01285f293571975988c111f3e9940e06f95dcb data/blockzmod/loot_table/blocks/exchange_block.json
 3939b3b1eb27f75a2192f28c742b6d8916cc8c2b data/blockzmod/loot_table/blocks/smoothcobblestonedark_block.json
 a20ae049629c62f809becb62fc5fc15378a515ee data/blockzmod/loot_table/blocks/smoothcobblestonelight_block.json

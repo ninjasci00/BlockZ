@@ -57,35 +57,33 @@ public class ModBlocks {
 
     // Copper variants handled directly
     public static final DeferredBlock<Block> COPPER_BLOCKZ_0 = registerBlock("copper_blockz_0",
-            () -> new Block(BlockBehaviour
-                    .Properties.of()
-
-                    .sound(SoundType.COPPER)
-                    .strength(0.3f, 6.0f)
-
-                    .requiresCorrectToolForDrops()
-            )
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1.0f, 6.0f).requiresCorrectToolForDrops())
     );
     public static final DeferredBlock<Block> COPPER_BLOCKZ_1 = registerBlock("copper_blockz_1",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .sound(SoundType.COPPER)
-                    .strength(0.3f, 6.0f)
-
-                    .requiresCorrectToolForDrops()
-            )
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1.0f, 6.0f).requiresCorrectToolForDrops())
     );
     public static final DeferredBlock<Block> COPPER_BLOCKZ_2 = registerBlock("copper_blockz_2",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .sound(SoundType.COPPER)
-                    .strength(0.3f, 6.0f)
-
-                    .requiresCorrectToolForDrops()
-            )
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1.0f, 6.0f).requiresCorrectToolForDrops())
+    );
+    public static final DeferredBlock<Block> COPPER_BLOCKZ_3 = registerBlock("copper_blockz_3",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1.0f, 6.0f).requiresCorrectToolForDrops())
+    );
+    public static final DeferredBlock<Block> COPPER_BLOCKZ_4 = registerBlock("copper_blockz_4",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1.0f, 6.0f).requiresCorrectToolForDrops())
+    );
+    public static final DeferredBlock<Block> COPPER_BLOCKZ_5 = registerBlock("copper_blockz_5",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1.0f, 6.0f).requiresCorrectToolForDrops())
+    );
+    public static final DeferredBlock<Block> COPPER_BLOCKZ_6 = registerBlock("copper_blockz_6",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1.0f, 6.0f).requiresCorrectToolForDrops())
+    );
+    public static final DeferredBlock<Block> COPPER_BLOCKZ_7 = registerBlock("copper_blockz_7",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1.0f, 6.0f).requiresCorrectToolForDrops())
     );
 
     // Group copper variants for easy iteration
     public static final DeferredBlock<?>[] COPPER_VARIANTS = new DeferredBlock<?>[]{
-            COPPER_BLOCKZ_0, COPPER_BLOCKZ_1, COPPER_BLOCKZ_2
+            COPPER_BLOCKZ_0, COPPER_BLOCKZ_1, COPPER_BLOCKZ_2, COPPER_BLOCKZ_3, COPPER_BLOCKZ_4, COPPER_BLOCKZ_5, COPPER_BLOCKZ_6, COPPER_BLOCKZ_7
     };
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

@@ -26,7 +26,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         registerBlockVariants("copper_blockz", new DeferredBlock[]{
                 ModBlocks.COPPER_BLOCKZ_0,
                 ModBlocks.COPPER_BLOCKZ_1,
-                ModBlocks.COPPER_BLOCKZ_2
+                ModBlocks.COPPER_BLOCKZ_2,
+                ModBlocks.COPPER_BLOCKZ_3,
+                ModBlocks.COPPER_BLOCKZ_4,
+                ModBlocks.COPPER_BLOCKZ_5,
+                ModBlocks.COPPER_BLOCKZ_6,
+                ModBlocks.COPPER_BLOCKZ_7,
         });
 
     }

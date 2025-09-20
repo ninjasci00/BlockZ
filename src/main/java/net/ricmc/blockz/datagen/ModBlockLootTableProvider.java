@@ -28,6 +28,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.COPPER_BLOCKZ_0.get());
         dropSelf(ModBlocks.COPPER_BLOCKZ_1.get());
         dropSelf(ModBlocks.COPPER_BLOCKZ_2.get());
+        dropSelf(ModBlocks.COPPER_BLOCKZ_3.get());
+        dropSelf(ModBlocks.COPPER_BLOCKZ_4.get());
+        dropSelf(ModBlocks.COPPER_BLOCKZ_5.get());
+        dropSelf(ModBlocks.COPPER_BLOCKZ_6.get());
+        dropSelf(ModBlocks.COPPER_BLOCKZ_7.get());
     }
 
     @Override

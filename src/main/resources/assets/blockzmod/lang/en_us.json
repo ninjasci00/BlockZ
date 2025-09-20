@@ -7,6 +7,15 @@
   "block.blockzmod.smoothdirtdark_block": "Smooth Dirt (Dark)",
   "block.blockzmod.exchange_block": "Exchange Block",
 
+  "block.blockzmod.copper_blockz_0": "Copper BlockZ 0",
+  "block.blockzmod.copper_blockz_1": "Copper BlockZ 1",
+  "block.blockzmod.copper_blockz_2": "Copper BlockZ 2",
+  "block.blockzmod.copper_blockz_3": "Copper BlockZ 3",
+  "block.blockzmod.copper_blockz_4": "Copper BlockZ 4",
+  "block.blockzmod.copper_blockz_5": "Copper BlockZ 5",
+  "block.blockzmod.copper_blockz_6": "Copper BlockZ 6",
+  "block.blockzmod.copper_blockz_7": "Copper BlockZ 7",
+
   "creativetab.blockzmod.blockz_blocks": "BlockZ",
   "creativetab.blockzmod.blockz_items": "BlockZ Items"
 }
